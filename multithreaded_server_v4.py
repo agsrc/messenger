@@ -147,8 +147,8 @@ def set(kv):
 
     # if all the above goes well then the data structure is put into the dictionary
     hashtable[key] = val
-    print("added key value pair")
-    print(key + ": " + val)
+    #print("added key value pair")
+    #print(key + ": " + val)
     return 0
 
 def get(key):
@@ -167,7 +167,7 @@ def get(key):
             break  # we already found the required value
 
     # if the key was not found then val is already set to -1
-    print("The related value is: ", val)
+    #print("The related value is: ", val)
     return val
 
 def stats():
@@ -177,7 +177,7 @@ def stats():
         Prints an integer that is the size of the key store
     '''
     val = len(hashtable.keys())
-    print("There are " + str(val) + " items in the store")
+    #print("There are " + str(val) + " items in the store")
     return val
 
 if __name__ == "__main__":
